@@ -1,0 +1,11 @@
+#!/bin/bash
+echo Transforming the trees.
+dot -Tpng tree1.dot -o tree1.png
+dot -Tpng tree2.dot -o tree2.png
+dot -Tpng tree4.dot -o tree4.png
+dot -Tpng tree6.dot -o tree6.png
+dot -Tpng tree8.dot -o tree8.png
+dot -Tpng treeNone.dot -o treeNone.png
+echo Deleting the .dot files
+rm *.dot
+echo Done!
